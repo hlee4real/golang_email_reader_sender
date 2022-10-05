@@ -41,7 +41,7 @@ func main() {
 	}
 	fmt.Println("connected to server")
 	defer c.Logout()
-	if err := c.Login("hoanglh1311", "wpuwokrdwddsnbco"); err != nil {
+	if err := c.Login("hoanglh1311", ""); err != nil {
 		fmt.Println(err)
 		return
 	}
